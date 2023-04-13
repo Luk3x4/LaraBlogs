@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.loading {
+    top: calc(50% - 49px);
+    left: calc(50% - 49px);
+}
+
+.image-uploader::file-selector-button{
+    background: rgb(37, 99, 235);
+    border: 0;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
