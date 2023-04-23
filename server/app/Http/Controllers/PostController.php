@@ -47,7 +47,6 @@ class PostController extends Controller
     }
 
     public function update(Post $post, Request $request){
-        return $request->all();
         $attributes = $request->validate([
             'title' => 'required',
             'slug' => 'required',

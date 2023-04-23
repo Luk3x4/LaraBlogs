@@ -14,6 +14,7 @@ const CreatePost: React.FC = () => {
   const { id } = useParams();
   const navigate = useNavigate()
 
+  
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData(prev => {
         return {...prev, [e.target.name]: e.target.value}
